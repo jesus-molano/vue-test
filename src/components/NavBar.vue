@@ -1,8 +1,8 @@
 <template>
   <nav class="navbar">
     <ul>
-      <RouterLink to="/">Counter</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
+      <li><RouterLink to="/">Counter</RouterLink></li>
+      <li><RouterLink to="/about">About</RouterLink></li>
     </ul>
   </nav>
 </template>

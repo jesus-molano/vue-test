@@ -42,7 +42,7 @@ const { counter, doubleCount } = storeToRefs(store);
   }
 
   .reset {
-    background-color: rgb(185, 66, 66);
+    background-color: rgb(158, 55, 55);
     color: #fff;
   }
 }

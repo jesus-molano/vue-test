@@ -4,10 +4,7 @@ import NavBar from './NavBar.vue';
 // Definimos las propiedades que nos llegan en:
 // <HelloWorld msg="mensaje" />
 defineProps({
-  msg: {
-    type: String,
-    required: true
-  }
+  msg:String
 })
 </script>
 

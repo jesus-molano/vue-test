@@ -1,11 +1,8 @@
 <script setup>
 import { useCounterStore } from "@/stores/counter.js";
-
-// Te pasa la useStore a ref (con la que puedes desestructurar)
 import { storeToRefs } from "pinia";
 
 const store = useCounterStore();
-//Desestructuración de la store para evitar => store.counter, store.dou...
 const { counter, doubleCount } = storeToRefs(store);
 </script>
 
